@@ -4,7 +4,6 @@ import matplotlib.colors as colors
 import numpy as np
 import pandas as pd
 
-#used
 
 def single_cell_RNA(singleCell, RNAseq, attr):
     attribute_values, fold_changes, color = [], [], []

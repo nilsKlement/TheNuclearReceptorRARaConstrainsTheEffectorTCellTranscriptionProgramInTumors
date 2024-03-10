@@ -1,5 +1,6 @@
 import os, sys
-sys.path.insert(1, r"C:\Users\nilsk\OneDrive\Desktop\workspace\publications\RARa_regulated_antitumor_immunity_github\libs\structure")
+sys.path.insert(1, os.getcwd())
+sys.path.insert(1, os.getcwd()+"/libs/structure")
 from RNASequence import RNASequence, RNASequenceGeneral
 
 

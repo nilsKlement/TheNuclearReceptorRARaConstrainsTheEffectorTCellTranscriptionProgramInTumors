@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.colors as colors
 
-#used
 
 def chip_vs_rna(chip, rna):
     fold_changes, fold_enrichment, color = [], [], []

@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 from copy import deepcopy
 
-#used
 
 def overlapping_gens(ChiP1, ChiP2):
     overlapps = []

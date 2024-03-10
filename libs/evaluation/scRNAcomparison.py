@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-#used
 
 def scRNAcomparison(scRNAs, RNAs):
     matches = [scRNAs.header + "," + RNAs.header]
